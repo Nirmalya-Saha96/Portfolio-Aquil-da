@@ -4,7 +4,6 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
-import PinterestIcon from '@material-ui/icons/Pinterest';
 import Particle from '../Components/Particle';
 import { init } from 'ityped';
 import { Wave1 } from '../data/examples.js';
