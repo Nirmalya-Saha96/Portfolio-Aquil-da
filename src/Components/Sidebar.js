@@ -18,8 +18,12 @@ const SidebarStyled = styled.div`
     overflow: hidden;
     transition: all .4s ease-in-out;
     @media screen and (max-width:1200px){
+        width: 13.3rem;
         transform: translateX(-100%);
         z-index: 20;
+    }
+    @media screen and (max-width:320px){
+        width: 11.3rem;
     }
 `;
 
