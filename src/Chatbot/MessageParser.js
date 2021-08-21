@@ -42,6 +42,10 @@ class MessageParser {
     if(lowerCaseMessage.includes('instagram')) {
       this.actionProvider.instagram();
     }
+    
+    if(lowerCaseMessage.includes('phone')) {
+      this.actionProvider.phone();
+    }
 
     if (lowerCaseMessage.includes('good')) {
       this.actionProvider.feedback();
