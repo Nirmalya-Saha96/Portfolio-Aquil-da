@@ -4,7 +4,7 @@ import styled from 'styled-components';
 function PrimaryButton({ title, link }) {
     return (
         <PrimaryButtonStyled>
-            <a href={link}>{title}</a>
+            <a href={link} rel="noreferrer" target="_blank">{title}</a>
         </PrimaryButtonStyled>
     )
 }
