@@ -98,13 +98,13 @@ class ActionProvider {
     this.updateChatbotState(penu);
   }
   
-  facebook = () => {
-    const pen = this.createChatBotMessage('My Phone Number is');
-    const penu = this.createChatBotMessage(
+  phone = () => {
+    const penuuu = this.createChatBotMessage('My Phone Number is');
+    const penuee = this.createChatBotMessage(
       '7003698620',
     );
-    this.updateChatbotState(pen);
-    this.updateChatbotState(penu);
+    this.updateChatbotState(penuuu);
+    this.updateChatbotState(penuee);
   }
 
   feedback = () => {
