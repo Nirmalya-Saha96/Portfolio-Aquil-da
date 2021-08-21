@@ -23,10 +23,12 @@ class ActionProvider {
     const u = this.createChatBotMessage('type email to get my email id.');
     const address = this.createChatBotMessage('type address to get my address');
     const sociallinks = this.createChatBotMessage('type social to get my social links');
+    const phoneno = this.createChatBotMessage('type phone to get my Contact Number');
     this.updateChatbotState(v);
     this.updateChatbotState(u);
     this.updateChatbotState(address);
     this.updateChatbotState(sociallinks);
+    this.updateChatbotState(phoneno);
   }
 
   Face = () => {
@@ -91,6 +93,15 @@ class ActionProvider {
     const pen = this.createChatBotMessage('My Facebook link is');
     const penu = this.createChatBotMessage(
       'https://www.facebook.com/mdaquiluzzaman/',
+    );
+    this.updateChatbotState(pen);
+    this.updateChatbotState(penu);
+  }
+  
+  facebook = () => {
+    const pen = this.createChatBotMessage('My Phone Number is');
+    const penu = this.createChatBotMessage(
+      '7003698620',
     );
     this.updateChatbotState(pen);
     this.updateChatbotState(penu);
